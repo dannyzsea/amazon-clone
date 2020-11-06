@@ -6,6 +6,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
+  width: 100%;
 }
 
 .header__iconm {
@@ -58,4 +59,24 @@
 }
 .header__navInnerCart {
   color: white;
+}
+.header__secondNav {
+  display: flex;
+  position: sticky;
+  z-index: 100;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(46, 43, 43, 0.74);
+  overflow: hidden;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+}
+.header__secondNavInner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

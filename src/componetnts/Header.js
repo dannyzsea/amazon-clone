@@ -6,7 +6,9 @@ import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 import ExpandMoreOutlinedIcon from '@material-ui/icons/ExpandMoreOutlined';
 
 function Header() {
+  
     return (
+        <>
         //BEM convention for className
         <div className="header">
         
@@ -45,9 +47,47 @@ function Header() {
             <ShoppingCartOutlinedIcon className="header__navInnerCart"/>
         </div>
         </div>
-
+    
         </div>
-        
+        <div className="header__secondNav">
+        <div className="header__secondNavInner">
+            <span className="header__secondNavInnerLineONe"> Holiday Deals</span>
+            
+           
+        </div>
+        <div className="header__secondNavInner">
+            <span className="header__secondNavInnerLineTwo"> Gift Cards</span>
+            </div>
+
+            <div className="header__secondNavInner">
+            <span className="header__secondNavInnerLineThree">Browsing History</span>
+            <ExpandMoreOutlinedIcon className="header__secondNavInnerLineThreeIcon"/>
+            </div>
+            <div className="header__secondNavInner">
+            <span className="header__secondNavInnerLineFour"> Prime Video</span>
+            </div>
+            <div className="header__secondNavInner">
+            <span className="header__secondNavInnerLineFive">Customer Service</span>
+            </div>
+            <div className="header__secondNavInner">
+            <span className="header__secondNavInnerLineSix">Best Seller</span>
+            </div>
+            <div className="header__secondNavInner">
+            <span className="header__secondNavInnerLineSeven">Buy Again</span>
+            </div>
+            <div className="header__secondNavInner">
+            <span className="header__secondNavInnerLineSeven">Find a Gift</span>
+            </div>
+            <div className="header__secondNavInner">
+            <span className="header__secondNavInnerLineEight">Whole Foods</span>
+            </div>
+            <div className="header__secondNavInner">
+            <span className="header__secondNavInnerLineEight">Shop deals before they're gone</span>
+            </div>
+            
+</div>
+
+        </>
     )
 }
 
