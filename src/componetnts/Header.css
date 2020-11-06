@@ -7,11 +7,21 @@
   top: 0;
   z-index: 100;
 }
+
+.header__iconm {
+  color: white;
+  object-fit: contain;
+  margin-right: 20px;
+  width: 120px;
+  height: 200px;
+  border: white solid 1px;
+}
 .header__logo {
   width: 100px;
   object-fit: contain;
   margin: 0, 20px;
   margin-top: 18px;
+  margin-right: 20px;
 }
 .header__search {
   display: flex;
@@ -29,4 +39,23 @@
   padding: 10px;
   border: none;
   width: 100%;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__navInner {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+.header__navInnerLineTwoIcon {
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.header__navInnerCart {
+  color: white;
 }
